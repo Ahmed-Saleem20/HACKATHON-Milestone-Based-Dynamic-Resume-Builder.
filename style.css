@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+
+  body {
+    background: rgba(206, 206, 206, 0.676);
+    align-items: center;
+  }
+
+.resume-builder {
+background-color: white;
+  border: solid 1px black;
+  border-radius: 20px;
+  box-shadow: 0 8px 35px rgba(0, 0, 0, 0.2);
+  width: 87%;
+  margin: 30px auto;
+  padding: 30px 30px;
+    max-width: 600px;   
+    font-family: Arial, sans-serif;
+}
+
+.resume-builder h1{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 8px 35px rgb(47, 92, 242);
+    color: #007bff;
+}
+
+.para{
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+
+.resume-builder label {
+    display: block;
+    margin-top: 20px;
+}
+
+.resume-builder input,
+.resume-builder textarea {
+    width: 99%;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.resume-builder button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px
+}
+
+.resume-builder button:hover {
+    background-color: #0056b3;
+}
+
+.resume-preview {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.resume-photo{
+    width: 30%;
+    height: auto;
+}
+
+@media screen and (max-width: 600px) {
+    .resume-builder {
+        padding: 15px;
+    }
+}
